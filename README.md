@@ -3,13 +3,8 @@ Obten los Nombres y apellidos de una Persona a partir de su Nro de DNI, Para Cak
 
 ### Instalacion mediante composer
 ```sh
-	composer require -o "jossmp/reniec"
+	composer require -o "leophp/search_dni "
 ```
 
 ```sh
-<?php
-    require ("./vendor/autoload.php");
-    ...
-?>
-```
 

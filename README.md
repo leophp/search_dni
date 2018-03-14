@@ -1,45 +1,6 @@
 # BUSCAR DNI
 Obten los Nombres y apellidos de una Persona a partir de su Nro de DNI, Para Cakephp3
-### Metodo de Uso
-```sh
-<?php
-    require ("./src/autoload.php");
 
-    $persona = new \Reniec\Reniec();
-	$dni="00000000";
-    var_dump( $persona->search($dni) );
-?>
-```
-como resultado obtenemos el array
-```sh
-array(2) {
-  ["success"]=>
-  bool(true)
-  ["result"]=>
-  array(5) {
-    ["Nombre"]=>
-    string(5) "Nombres"
-    ["Paterno"]=>
-    string(5) "Ap. Paterno"
-    ["Materno"]=>
-    string(4) "AP. Materno"
-    ["DNI"]=>
-    string(8) "00000000"
-    ["CodVerificacion"]=>
-    string(1) "0"
-  }
-}
-
-```
-en caso de error
-```sh
-array(2) {
-  ["success"]=>
-  bool(false)
-  ["msg"]=>
-  string(21) "Nro de DNI no valido."
-}
-```
 ### Instalacion mediante composer
 ```sh
 	composer require -o "jossmp/reniec"

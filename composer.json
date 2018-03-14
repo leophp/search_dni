@@ -5,6 +5,7 @@
     "keywords": ["Reniec", "Peru", "cakePHP3", "Consulta", "cURL"],
     "homepage" : "https://github.com/leophp/search_dni",
     "license": "MIT",
+    "minimum-stability": "dev",
     "optimize-autoloader": true,
     "authors": [
         {

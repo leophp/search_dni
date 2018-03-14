@@ -1,5 +1,5 @@
-# CONSULTA [RENIEC]
-Obten los Nombres y apellidos de una Persona a partir de su Nro de DNI o CUI de cuidados Peruanos. puedes ver una demo [aqui].
+# BUSCAR DNI
+Obten los Nombres y apellidos de una Persona a partir de su Nro de DNI, Para Cakephp3
 ### Metodo de Uso
 ```sh
 <?php
@@ -52,5 +52,3 @@ array(2) {
 ?>
 ```
 
-[RENIEC]: <https://cel.reniec.gob.pe/valreg/valreg.do>
-[aqui]: <https://demos.geekdev.ml/reniec/>

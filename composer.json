@@ -18,7 +18,7 @@
         "lib-curl": "*"
     },
     "require-dev": {
-        "php": ">=5.2"
+        "php": ">=5.6"
     },
     "autoload":{
 		"psr-4":{

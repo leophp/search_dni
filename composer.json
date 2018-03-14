@@ -1,17 +1,16 @@
 {
-    "name": "jossmp/reniec",
+    "name": "leophp/search_dni",
     "description": "Clase para realizar consultas a reniec Peru mediante el numero de DNI",
     "type": "library",
-    "keywords": ["Reniec", "Peru", "PHP", "Consulta", "cURL"],
-    "homepage" : "https://github.com/JossMP/reniec",
+    "keywords": ["Reniec", "Peru", "cakePHP3", "Consulta", "cURL"],
+    "homepage" : "https://github.com/leophp/search_dni",
     "license": "MIT",
     "minimum-stability": "dev",
     "optimize-autoloader": true,
     "authors": [
         {
-            "name": "Josue Mazco Puma",
-            "email": "jossmp@gmail.com",
-            "homepage" : "https://geekdev.ml/",
+            "name": "Leonardo",
+            "email": "cracker.leo@gmail.com",
             "role" : "Developers"
         }
     ],
